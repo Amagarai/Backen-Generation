@@ -30,6 +30,14 @@ public class Admnistrateur {
     public Admnistrateur() {
     }
 
+    public Admnistrateur(String nom, String email, String login, String password, int tel) {
+        this.nom = nom;
+        this.email = email;
+        this.login = login;
+        this.password = password;
+        this.tel = tel;
+    }
+
     public List<Apprenant> getApprenants() {
         return apprenants;
     }
